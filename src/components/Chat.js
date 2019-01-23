@@ -51,11 +51,16 @@ class Chat extends React.Component {
                     
                     <div className="messages">
                       {this.state.messages.map(message => {
-                        return (
+                        return (<div>
+
                           <div>User {message.author} Said: {message.message}</div>
+                        <p></p>
+                        </div>
                         )
                       })}
-                </div>
+                          <p></p>
+                    </div>
+                    <p>Hello</p>
                 <form>
 
                 <div className="createMsg">
